@@ -1,9 +1,10 @@
 import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Введите римское число: "); // MMMDCXLII
+        System.out.print("Enter your roman number: "); // MMMDCXLII
         String input = scanner.next();
         char[] romanChars = input.toCharArray();
         int[] humanNum = new int[input.length()];
@@ -44,4 +45,5 @@ class ConvertRomanToHuman {
         }
         return sum;
     }
+
 }
